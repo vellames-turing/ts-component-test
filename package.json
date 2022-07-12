@@ -1,0 +1,20 @@
+{
+  "name": "ts-component-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}
